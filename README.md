@@ -17,8 +17,10 @@ python rename.py movie 0
 rename.exe movie 0
 ```
 表示将该目录下的文件夹，从'movie_0'依次递增命令
+
 ###cal_ip_and_mask.py
 输入ip地址和子网掩码，计算其相与后的值
+
 ###count_python_code.py
 统计指定目录下，python文件中代码行数（空格、注释、有效代码）。运行结果格式如下：
 
