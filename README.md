@@ -3,6 +3,7 @@
 使用python，指定像素值列表，画出图像
 ### divide-files
 将文件夹中文件按照n个一组，重新生成新的文件夹。有两个版本，python & exe
+
 usage:
 
 ```python
