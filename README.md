@@ -5,7 +5,6 @@
 将文件夹中文件按照n个一组，重新生成新的文件夹。有两个版本，python & exe
 
 usage:
-
 ```python
 python divide-files.py 10
 divide-files.exe 10
@@ -13,8 +12,8 @@ divide-files.exe 10
 
 ### rename
 将同一目录下的所有文件夹，按照同一格式命名并编号
-**usage:**
 
+usage:
 ```python
 python rename.py movie 0
 rename.exe movie 0
