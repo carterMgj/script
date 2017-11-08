@@ -33,9 +33,10 @@ countCode:90
 total:207
 ```
 ### windbg_attach.py
-一键windbg调试利器。在脚本中指定：
+一键windbg调试利器。使用前，需要在脚本中指定：
  - windbg路径
  - 调试程序路径
  - 调试程序进程名称
  - 需要自动执行的windbg命令
-即可开启待调试程序 -- 使用windbg附加上去 -- 并执行指定的windbg指令（如下断点、查看内存等）
+ 
+即可自动化启动待调试程序 -- windbg附加 -- 执行指定的windbg指令（如下断点、查看内存等）
