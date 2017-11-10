@@ -15,11 +15,12 @@ command_list=["bp kernel32!Winexec","bp kernel32!CopyFileA","lm","!heap -h"]
 # write commands to command.txt
 def write_to_commandScript():
 	global command_list
-	length = len(command_list)
+	rr = ''
+	for item in command_list:
+		rr = rr + item + ';'
+	rr = rr[:-1]
 	with open('command.txt','wb') as fp:
-		for i in range(length-1):
-			fp.write(command_list[i] + ';')
-		fp.write(command_list[i+1])
+		fp.write(rr)
 	fp.close()
 
 
