@@ -10,7 +10,7 @@ python divide-files.py 10
 divide-files.exe 10
 ```
 
-### rename
+### rename.py
 将同一目录下的所有文件夹，按照同一格式命名并编号
 
 usage:
@@ -40,3 +40,9 @@ total:207
  - 需要自动执行的windbg命令
  
 即可自动化启动待调试程序 -- windbg附加 -- 执行指定的windbg指令（如下断点、查看内存等）
+
+### cal_jmp.py
+计算jmp跳转的指令偏移，输出完整的5字节jmp指令
+ - 输入jmp指令下一条指令地址作为起始地址
+ - 输入跳转目标地址
+ - 得到jmp完整指令
