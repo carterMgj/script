@@ -22,11 +22,14 @@ rename.exe movie 0
 
 ### rename_file.py
 将同一目录下所有文件，按照同一格式命名并编号
+
+
 usage:
 ```python
 python rename_file image 0 png
-'''
-表示将该目录下所有文件，命名为"imgas_0.png,image_1.pmg..."
+```
+表示将该目录下所有文件，命名为 imgas_0.png,image_1.pmg...
+
 
 ### cal_ip_and_mask.py
 输入ip地址和子网掩码，计算其相与后的值
