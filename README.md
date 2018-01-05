@@ -10,15 +10,23 @@ python divide-files.py 10
 divide-files.exe 10
 ```
 
-### rename.py
+### rename_folder.py
 将同一目录下的所有文件夹，按照同一格式命名并编号
 
 usage:
 ```python
-python rename.py movie 0
+python rename_folder.py movie 0
 rename.exe movie 0
 ```
 表示将该目录下的文件夹，从'movie_0'依次递增命令
+
+### rename_file.py
+将同一目录下所有文件，按照同一格式命名并编号
+usage:
+```python
+python rename_file image 0 png
+'''
+表示将该目录下所有文件，命名为"imgas_0.png,image_1.pmg..."
 
 ### cal_ip_and_mask.py
 输入ip地址和子网掩码，计算其相与后的值
