@@ -28,7 +28,7 @@ usage:
 ```python
 python rename_file image 0 png
 ```
-表示将该目录下所有文件，命名为 imgas_0.png,image_1.pmg...
+表示将该目录下所有文件，命名为 imgas_0.png,image_1.png...
 
 
 ### cal_ip_and_mask.py
